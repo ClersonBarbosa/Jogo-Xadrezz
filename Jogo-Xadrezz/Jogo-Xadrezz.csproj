@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Xadrez\" />
-    <Folder Include="Tabuleiro\" />
+    <Folder Include="xadrez\" />
+    <Folder Include="tabuleiro\" />
   </ItemGroup>
 
 </Project>
