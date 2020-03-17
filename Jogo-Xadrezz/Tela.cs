@@ -1,5 +1,5 @@
-﻿using tabuleiro;
-using System;
+﻿using System;
+using tabuleiro;
 
 namespace Jogo_Xadrezz
 {
@@ -20,7 +20,6 @@ namespace Jogo_Xadrezz
                         Console.Write(tab.peca(i, j) + " ");
                     }
                 }
-
                 Console.WriteLine();
             }
         }
