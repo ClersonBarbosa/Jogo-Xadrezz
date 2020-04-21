@@ -27,7 +27,9 @@ namespace xadrez {
                 if (tab.peca(pos) != null && tab.peca(pos).cor != cor) {
                     break;
                 }
-                pos.definirValores(pos.linha - 1, pos.coluna - 1);
+                else {
+                    pos.definirValores(pos.linha - 1, pos.coluna - 1);
+                }
             }
 
             // NE
@@ -37,7 +39,9 @@ namespace xadrez {
                 if (tab.peca(pos) != null && tab.peca(pos).cor != cor) {
                     break;
                 }
-                pos.definirValores(pos.linha - 1, pos.coluna + 1);
+                else {
+                    pos.definirValores(pos.linha - 1, pos.coluna + 1);
+                }
             }
 
             // SE
@@ -47,7 +51,9 @@ namespace xadrez {
                 if (tab.peca(pos) != null && tab.peca(pos).cor != cor) {
                     break;
                 }
-                pos.definirValores(pos.linha + 1, pos.coluna + 1);
+                else {
+                    pos.definirValores(pos.linha + 1, pos.coluna + 1);
+                }
             }
 
             // SO
@@ -57,7 +63,9 @@ namespace xadrez {
                 if (tab.peca(pos) != null && tab.peca(pos).cor != cor) {
                     break;
                 }
-                pos.definirValores(pos.linha + 1, pos.coluna - 1);
+                else {
+                    pos.definirValores(pos.linha + 1, pos.coluna - 1);
+                }
             }
 
             return mat;
