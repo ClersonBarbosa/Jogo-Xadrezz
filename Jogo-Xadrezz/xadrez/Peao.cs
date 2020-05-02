@@ -1,5 +1,4 @@
-﻿using System;
-using tabuleiro;
+﻿using tabuleiro;
 
 namespace xadrez {
     class Peao: Peca {
@@ -16,11 +15,6 @@ namespace xadrez {
         private bool existeInimigo(Posicao pos) {
             Peca p = tab.peca(pos);
             return p != null && p.cor != cor;   
-        }
-
-        private bool podeMover(Posicao pos) {
-            Peca p = tab.peca(pos);
-            return p == null || p.cor != cor;
         }
 
         private bool livre(Posicao pos) {
@@ -100,7 +94,6 @@ namespace xadrez {
                     }
                 }
             }
-
             return mat;
         }
     }
